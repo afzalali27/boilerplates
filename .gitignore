@@ -1,21 +1,69 @@
 # Node.js
-express-api-proj/node_modules/
+express-api-proj/node_modules
+express-api-proj/.env
+express-api-proj/.env.*.backup
+express-api-proj/.idea
+express-api-proj/.vscode
+express-api-proj/.DS_Store
 express-api-proj/npm-debug.log
 express-api-proj/yarn-error.log
+express-api-proj/logs
+express-api-proj/*.log
+express-api-proj/coverage
+express-api-proj/dist
+express-api-proj/.parcel-cache
+express-api-proj/.eslintcache
+express-api-proj/.nyc_output
+express-api-proj/package-lock.json
+express-api-proj/package.json
+express-api-proj/.serverless
+express-api-proj/.build
+express-api-proj/.turborepo
+express-api-proj/Thumbs.db
+express-api-proj/desktop.ini
+
 
 # Rails
-rails-api-proj/log/*
-rails-api-proj/tmp/*
-rails-api-proj/vendor/bundle
-rails-api-proj/db/*.sqlite3
-rails-api-proj/db/*.sqlite3-journal
-rails-api-proj/public/system
-rails-api-proj/coverage/
-rails-api-proj/spec/tmp
-rails-api-proj/*.rbc
-rails-api-proj/*.sass-cache
-rails-api-proj/capybara-*.html
-rails-api-proj/.rspec
+rails-api-proj/vendor
+rails-api-proj/node_modules
+rails-api-proj/public/storage
+rails-api-proj/storage/*.key
+rails-api-proj.env
+rails-api-proj.env.*.backup
+
+# Laravel 9 and above specific
+rails-api-proj/public/hot
+rails-api-proj/public/storage
+rails-api-proj/storage/*.key
+rails-api-proj/storage/framework/cache/data
+rails-api-proj/storage/framework/sessions
+rails-api-proj/storage/framework/views
+rails-api-proj/.idea
+rails-api-proj/.vscode
+
+# Composer
+rails-api-proj/composer.lock
+
+# PHPUnit
+rails-api-proj/phpunit.xml
+rails-api-proj/phpunit.xml.dist
+
+# IDE & Editor folders
+rails-api-proj/.idea
+rails-api-proj/.vscode
+rails-api-proj/.DS_Store
+
+# NPM/Yarn
+rails-api-proj/npm-debug.log
+rails-api-proj/yarn-error.log
+
+# Log files
+rails-api-proj/*.log
+
+# OS-specific files
+rails-api-proj/Thumbs.db
+rails-api-proj/desktop.ini
+
 
 # OS-specific files
 .DS_Store
