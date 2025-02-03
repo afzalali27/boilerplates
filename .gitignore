@@ -1,0 +1,33 @@
+# Node.js
+express-api-proj/node_modules/
+express-api-proj/npm-debug.log
+express-api-proj/yarn-error.log
+
+# Rails
+rails-api-proj/log/*
+rails-api-proj/tmp/*
+rails-api-proj/vendor/bundle
+rails-api-proj/db/*.sqlite3
+rails-api-proj/db/*.sqlite3-journal
+rails-api-proj/public/system
+rails-api-proj/coverage/
+rails-api-proj/spec/tmp
+rails-api-proj/*.rbc
+rails-api-proj/*.sass-cache
+rails-api-proj/capybara-*.html
+rails-api-proj/.rspec
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE-related files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
+*.swo
+*.swn
