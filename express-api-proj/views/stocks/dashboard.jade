@@ -1,0 +1,17 @@
+//- Display ticker access frequency in tabular form
+extends ../layout
+
+block content
+  h1 Ticker Access Frequency
+  //- Check if tickerAccessFrequency is null display "No data available" other wise show stats
+  if tickerAccessFrequency && Object.keys(tickerAccessFrequency).length
+    table
+      tr
+        th Ticker
+        th Access Count
+      each ticker in Object.keys(tickerAccessFrequency)
+        tr
+          td= ticker
+          td= tickerAccessFrequency[ticker]
+  else
+    p No data available

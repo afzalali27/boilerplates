@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "bin",
+    "routes",
+    "views",
+    "app.ts"
+  ],
+  "ext": "ts,json,jade",
+  "exec": "ts-node ./bin/www.ts",
+  "ignore": [
+    "node_modules",
+    "public"
+  ]
+}
